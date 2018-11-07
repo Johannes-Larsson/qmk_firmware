@@ -25,9 +25,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x3060
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Wootpatoot
-#define PRODUCT         Lets Split v2
-#define DESCRIPTION     A split keyboard for the cheap makers
+#define MANUFACTURER    Johannes Larsson
+#define PRODUCT         Hypothesis Keyboard
+#define DESCRIPTION     Let's split-like keyboard with joysticks
 
 /* key matrix size */
 // Rows are doubled-up
@@ -35,8 +35,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 6
 
 // wiring of each half
-#define MATRIX_ROW_PINS { D7, E6, B4, B5 }
-#define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
+#define MATRIX_ROW_PINS { F4, B3, B2, B6 }
+#define MATRIX_COL_PINS { F5, F6, F7, B1, D7, E6 }
 // #define MATRIX_COL_PINS { B6, B2, B3, B1, F7, F6 } //uncomment this line and comment line above if you need to reverse left-to-right key order
 
 /* define if matrix has ghost */
